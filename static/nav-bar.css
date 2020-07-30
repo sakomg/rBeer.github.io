@@ -1,0 +1,28 @@
+.main {
+    color: white;
+}
+
+.header-main {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    z-index: 99999;
+}
+
+.header-main * {
+    display: inline;
+}
+
+.header-main li {
+    margin: 10px;
+}
+
+.header-main li a {
+    color: black;
+    text-decoration: none;
+}
