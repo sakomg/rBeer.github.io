@@ -158,14 +158,8 @@ pre code {
     width: 777px
 }
 
-@media all and (max-width: 777px) {
-    .wrapper, .disqus, .disqus .hint {
-        line-height: 32px;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 100%
-    }
-}
+
+
 
 .disqus {
     margin-top: 100px;
@@ -605,7 +599,6 @@ h2 .link:hover {
 
 .pagination {
     text-align: center;
-    margin-top: 45px
 }
 
 .pagination .left {
