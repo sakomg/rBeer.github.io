@@ -26,3 +26,12 @@
     color: black;
     text-decoration: none;
 }
+
+.active-tab:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px
+}
+
+
+
+

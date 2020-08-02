@@ -99,6 +99,18 @@ pre code {
     color: #00aced
 }
 
+.icon-mail:hover {
+    color: #dd4b39;
+}
+
+.icon-vk:hover {
+    color: #45668e;
+}
+
+.icon-telegram:hover {
+    color: #0088cc;
+}
+
 .icon-stackoverflow:hover {
     color: #f48024
 }
@@ -394,6 +406,7 @@ a, a:visited {
     text-decoration: underline;
     text-decoration-thickness: 1px
 }
+
 
 body a, body a:visited {
     color: inherit
