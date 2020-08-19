@@ -6,13 +6,10 @@
     <meta content="width=device-width,minimum-scale=1,initial-scale=1" name="viewport"/>
     <link href="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595700887/beer_tjndvr.png" rel="shortcut icon"/>
     <title>rBeer | Аливария Porter</title>
-    <link href="https://res.cloudinary.com/ddxoslwlu/raw/upload/v1595753131/icons-256_zaxv2r.css" rel="stylesheet"/>
+    <link href="../static/icons-256.css" rel="stylesheet"/>
     <link href="../static/layout-256.css" rel="stylesheet"/>
     <link href="../static/nav-bar.css" rel="stylesheet"/>
     <style>
-        .quote {
-            font-size: 1.4em
-        }
         .quote span {
             display: block;
             font-size: .8em;
@@ -123,7 +120,7 @@
 
 <div class="disqus" role="complementary">
     <div class="disqus-thread" id="disqus_thread"></div>
-    <script> var disqus_config = function () {
+    <script> let disqus_config = function () {
         this.language = "ru";
         this.page.url = document.location.href.split('?')[0].split('#')[0];
         this.page.identifier = this.page.url;
@@ -141,13 +138,13 @@
 </div>
 
 <div class="wrapper">
-    <footer class="footer"><p> &copy; <span itemprop="copyrightHolder" itemscope="" temtype="http://schema.org/Person">
+    <footer class="footer"><p> &copy; <span itemprop="copyrightHolder" itemscope="" itemtype="http://schema.org/Person">
             <span itemprop="name">Саша Комегунов, 2020</span>
         </span>
     </footer>
 </div>
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
 <script id="dsq-count-scr" src="//rbeer-by.disqus.com/count.js" async></script>
-<script>var disqus_shortname = 'rBeer-by';</script>
+<script>let disqus_shortname = 'rBeer-by';</script>
 </body>
 </html>

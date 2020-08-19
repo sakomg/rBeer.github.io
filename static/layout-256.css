@@ -14,7 +14,7 @@ code, pre {
 
 @media all and (max-width: 777px) {
     code, pre {
-        font-family: 'Ubuntu Mono';
+        font-family: 'Ubuntu Mono', serif;
         letter-spacing: -1px
     }
 }

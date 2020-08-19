@@ -16,19 +16,12 @@
             position: static;
         }
 
-        .quote {
-            font-size: 1.4em
-        }
-
         .quote span {
             display: block;
             font-size: .8em;
             text-align: right
         }
-        .front {
-            margin-bottom: 20px;
-            margin-top: 80px
-        }
+
         body {
             background-color: black;
             color: white;
@@ -42,7 +35,7 @@
             top: 35px
         }
         @media all and (max-width: 777px) {
-            .wrapper, .disqus, .disqus .hint {
+            .wrapper, .disqus {
                 line-height: 32px;
                 padding-left: 20px;
                 padding-right: 20px;
@@ -161,13 +154,13 @@
 </section>
 
 <div class="wrapper">
-    <footer class="footer"><p> &copy; <span itemprop="copyrightHolder" itemscope="" temtype="http://schema.org/Person">
+    <footer class="footer"><p> &copy; <span itemprop="copyrightHolder" itemscope="" itemtype="http://schema.org/Person">
             <span itemprop="name">Саша Комегунов, 2020</span>
         </span>
     </footer>
 </div>
 
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
-<script>var disqus_shortname = 'rBeer-by';</script>
+<script>let disqus_shortname = 'rBeer-by';</script>
 </body>
 </html>

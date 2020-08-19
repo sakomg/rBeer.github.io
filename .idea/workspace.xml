@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8da61e2-123e-47f1-b0f7-7f0778f107bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-author.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-author.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/choise-color.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/others.html" beforeDir="false" afterPath="$PROJECT_DIR$/others.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts-others/1-2020-08-05.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts-others/1-2020-08-05.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/1-2020-05-01.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/1-2020-05-01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/2-2020-05-09.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2-2020-05-09.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/3-2020-05-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/3-2020-05-22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/4-2020-06-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/4-2020-06-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/5-2020-06-25.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/5-2020-06-25.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/6-2020-07-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/6-2020-07-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/7-2020-07-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/7-2020-07-19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/8-2020-07-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/8-2020-07-22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/9-2020-07-29.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/9-2020-07-29.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/head-color.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/icons-256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/icons-256.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/layout-256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/layout-256.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +55,37 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../check-crnvirus" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.32122904" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\jdev\git-pages-site" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -62,7 +101,11 @@
       <workItem from="1596144262864" duration="2933000" />
       <workItem from="1596218416277" duration="56399000" />
       <workItem from="1597392406540" duration="1649000" />
-      <workItem from="1597394127969" duration="918000" />
+      <workItem from="1597394127969" duration="2875000" />
+      <workItem from="1597430668203" duration="80000" />
+      <workItem from="1597545398526" duration="582000" />
+      <workItem from="1597572044634" duration="621000" />
+      <workItem from="1597573482237" duration="9062000" />
     </task>
     <task id="LOCAL-00001" summary="#2 remove templates directory">
       <created>1596146993350</created>
@@ -295,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597394180332</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="#35 change text in index">
+      <created>1597396385880</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1597396385880</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +353,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#11 fix indent between disqus and img in mobile version" />
     <MESSAGE value="#12 fix error page in mobile version" />
     <MESSAGE value="#13 refactor path css files" />
     <MESSAGE value="#14 fix error page" />
@@ -328,21 +377,22 @@
     <MESSAGE value="#32 fix title in error page" />
     <MESSAGE value="#33 correct path icons-256" />
     <MESSAGE value="#34 git info" />
-    <option name="LAST_COMMIT_MESSAGE" value="#34 git info" />
+    <MESSAGE value="#35 change text in index" />
+    <option name="LAST_COMMIT_MESSAGE" value="#35 change text in index" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596637357405">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="549" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1596637357405" />
-    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1597394177133">
+    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1597396382742">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1597394177133" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1597394098702">
+    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1597396382742" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1597430752619">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1597394098702" />
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1597430752619" />
     <state x="622" y="329" key="Github.CreateGistDialog" timestamp="1596399981736">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -355,10 +405,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="626" y="135" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1596146820753" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1597394197535">
+    <state x="280" y="4" key="SettingsEditor" timestamp="1597429898272">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1597394197535" />
+    <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597429898272" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1597396391440">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1597396391440" />
     <state x="459" y="109" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596222828489">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

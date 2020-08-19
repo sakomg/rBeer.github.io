@@ -1,7 +1,3 @@
-/*
-  Icon Font: icons
-*/
-
 @font-face {
     font-family: "icons";
     src: url("https://www.yegor256.com/css/icons.eot?1592889506");
@@ -56,7 +52,7 @@
 .icon-yes:before,
 .icon-youtube:before {
     display: inline-block;
-    font-family: "icons";
+    font-family: "icons", serif;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
