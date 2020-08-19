@@ -9,6 +9,7 @@
     <link href="static/icons-256.css" rel="stylesheet"/>
     <link href="static/layout-256.css" rel="stylesheet"/>
     <link href="static/nav-bar.css" rel="stylesheet"/>
+    <link href="static/filter-contents.css" rel="stylesheet">
 
     <style>
         .photo {
@@ -34,6 +35,7 @@
             position: relative;
             top: 35px
         }
+
         @media all and (max-width: 777px) {
             .wrapper, .disqus, .disqus .hint {
                 line-height: 32px;
@@ -51,7 +53,7 @@
             }
         }
 
-        @media all and (max-width: 777px){
+        @media all and (max-width: 777px) {
             .header-main {
                 display: none;
             }
@@ -68,11 +70,13 @@
             <li><a class="active-tab" href="index.html" title="Главная страница">Главная</a></li>
             <li><a class="active-tab" href="contents.html" title="Содержание веб-страницы">Содержание</a></li>
             <li><a class="active-tab" href="others.html" title="Обо всем">Разное</a></li>
-            <li><a class="active-tab" href="about-author.html" title="О создателе отзывов"
-                   style="color:darkred">
+            <li><a class="active-tab" href="about-author.html" style="color:darkred"
+                   title="О создателе отзывов">
                 <img alt="Deuis"
-                     class="dino-icon" src="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595944948/dino-deus_wbeklw.png"
-                     style="display:inline-block;border-radius:50%;height:1em;width:1em;line-height:1em;margin-bottom:-4px;margin-right:2px;">Об авторе</a></li>
+                     class="dino-icon"
+                     src="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595944948/dino-deus_wbeklw.png"
+                     style="display:inline-block;border-radius:50%;height:1em;width:1em;line-height:1em;margin-bottom:-4px;margin-right:2px;">Об
+                авторе</a></li>
         </ul>
     </nav>
 </div>
@@ -98,7 +102,9 @@
                 <li><a href="https://github.com/fishand4ips" itemprop="sameAs" rel="nofollow" title="GitHub"><i
                         aria-hidden="true" class="icon icon-github notranslate"></i></a></li>
                 <li><a href="https://www.youtube.com/channel/UC9tIIDtg-dfcI12lCImwJBw?view_as=subscriber"
-                       itemprop="sameAs" rel="nofollow" title="Youtube"><i aria-hidden="true" class="icon icon-youtube notranslate"></i></a></li>
+                       itemprop="sameAs" rel="nofollow" title="Youtube"><i aria-hidden="true"
+                                                                           class="icon icon-youtube notranslate"></i></a>
+                </li>
                 <li><a href="https://www.pinterest.com/akomegunov/" itemprop="sameAs" rel="nofollow"
                        title="Pinterest"><i aria-hidden="true" class="icon icon-pinterest notranslate"></i></a></li>
                 <li><a href="https://twitter.com/AKomegunov" rel="nofollow"
@@ -110,7 +116,8 @@
                 <li><a href="https://www.linkedin.com/in/sasha-komegunov/" rel="nofollow"
                        title="LinkedIn"><i aria-hidden="true" class="icon icon-linkedin notranslate"></i></a></li>
                 <li><a href="mailto:alekomegunov@gmail.com" rel="nofollow"
-                       title="alekomegunov@gmail.com"><i aria-hidden="true" class="icon icon-mail notranslate"></i></a></li>
+                       title="alekomegunov@gmail.com"><i aria-hidden="true" class="icon icon-mail notranslate"></i></a>
+                </li>
                 <li><a href="https://vk.com/id178700474" rel="nofollow"
                        title="ВКонтакте"><i aria-hidden="true" class="icon icon-vk notranslate"></i></a></li>
             </ul>
@@ -120,19 +127,23 @@
                 <li><a href="index.html" title="Главная страница">Главная</a></li>
                 <li><a href="contents.html" title="Содержание веб-страницы">Содержание</a></li>
                 <li><a href="others.html" title="Обо всем">Разное</a></li>
-                <li><a href="about-author.html" title="О создателе отзывов"
-                       style="color:darkred">Об авторе</a><img alt="Deuis"
-                                                               class="dino-icon" src="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595944948/dino-deus_wbeklw.png"
-                                                               style="display:inline-block;border-radius:50%;height:1em;width:1em;line-height:1em;margin-bottom:-7px;margin-left:2px"></li>
+                <li><a href="about-author.html" style="color:darkred"
+                       title="О создателе отзывов">Об авторе</a><img alt="Deuis"
+                                                               class="dino-icon"
+                                                               src="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595944948/dino-deus_wbeklw.png"
+                                                               style="display:inline-block;border-radius:50%;height:1em;width:1em;line-height:1em;margin-bottom:-7px;margin-left:2px">
+                </li>
             </ul>
         </nav>
         <div class="search">
             <form action="https://www.google.com/search" method="get">
                 <input name="sitesearch" type="hidden" value=""/>
                 <label for="search-query"></label><input autocomplete="off" class="field field-text" id="search-query"
-                                                         name="q" onfocus="$('.google').css('visibility', 'visible');" placeholder="Поиск..."
+                                                         name="q" onfocus="$('.google').css('visibility', 'visible');"
+                                                         placeholder="Поиск..."
                                                          type="text"/>
-                <input alt="Найти через Google" class="google" src="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595801539/google-search-icon_wqu7xj.svg"
+                <input alt="Найти через Google" class="google"
+                       src="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595801539/google-search-icon_wqu7xj.svg"
                        title="Найти через Google" type="image"/>
             </form>
         </div>
@@ -140,20 +151,27 @@
 </div>
 
 <section itemscope="" itemtype="http://schema.org/BlogPosting">
-    <div class="wrapper" align="center">
+    <div class="wrapper" style="text-align: center">
         <header itemprop="name"><h1>Содержание</h1></header>
+        <div id="button-filter-type">
+            <button class="btn active" onclick="filterSelection('all')"> Показать все</button>
+            <button class="btn" onclick="filterSelection('Светлое')"> Светлое</button>
+            <button class="btn" onclick="filterSelection('Тёмное')"> Тёмное</button>
+        </div>
         <main>
             <article class="main" itemprop="articleBody"><p></p>
-                <div>
-                    <div><a href="posts/9-2020-07-29.html"> <span
-                            itemprop="name headline mainEntityOfPage">#9 Аливария Porter</span> </a></div>
+                <div class="filter-content Тёмное">
+                    <div><a href="posts/9-2020-07-29.html">
+                        <span itemprop="name headline mainEntityOfPage">#9 Аливария Porter</span>
+                    </a>
+                    </div>
                     <ul class="subline">
                         <li>
                             <time datetime="2020-07-29" itemprop="datePublished dateModified">29 июля 2020</time>
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="filter-content Светлое">
                     <div><a href="posts/8-2020-07-22.html"> <span
                             itemprop="name headline mainEntityOfPage">#8 Koronet Lager</span> </a></div>
                     <ul class="subline">
@@ -162,7 +180,7 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="filter-content Светлое">
                     <div><a href="posts/7-2020-07-19.html"> <span
                             itemprop="name headline mainEntityOfPage">#7 Premium Schwarzbier</span> </a></div>
                     <ul class="subline">
@@ -171,7 +189,7 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="filter-content Тёмное">
                     <div><a href="posts/6-2020-07-4.html"> <span itemprop="name headline mainEntityOfPage">#6 Vėjas Nupūstas. Tamsusis Elis</span>
                     </a></div>
                     <ul class="subline">
@@ -180,7 +198,7 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="filter-content Светлое">
                     <div><a href="posts/5-2020-06-25.html"> <span
                             itemprop="name headline mainEntityOfPage">#5 Vilniaus alus</span> </a></div>
                     <ul class="subline">
@@ -189,8 +207,9 @@
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <div><a href="posts/4-2020-06-10.html"> <span itemprop="name headline mainEntityOfPage">#4 Марочное</span>
+                <div class="filter-content Тёмное">
+                    <div><a href="posts/4-2020-06-10.html"> <span
+                            itemprop="name headline mainEntityOfPage">#4 Марочное</span>
                     </a></div>
                     <ul class="subline">
                         <li>
@@ -198,8 +217,9 @@
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <div><a href="posts/3-2020-05-22.html"> <span itemprop="name headline mainEntityOfPage">#3 Hobgoblin</span>
+                <div class="filter-content Светлое">
+                    <div><a href="posts/3-2020-05-22.html"> <span
+                            itemprop="name headline mainEntityOfPage">#3 Hobgoblin</span>
                     </a></div>
                     <ul class="subline">
                         <li>
@@ -207,8 +227,9 @@
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <div><a href="posts/2-2020-05-09.html"> <span itemprop="name headline mainEntityOfPage">#2 Tamsusis</span>
+                <div class="filter-content Тёмное">
+                    <div><a href="posts/2-2020-05-09.html"> <span
+                            itemprop="name headline mainEntityOfPage">#2 Tamsusis</span>
                     </a></div>
                     <ul class="subline">
                         <li>
@@ -216,8 +237,9 @@
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <div><a href="posts/1-2020-05-01.html"> <span itemprop="name headline mainEntityOfPage">#1 Apunio barzda</span> </a>
+                <div class="filter-content Тёмное">
+                    <div><a href="posts/1-2020-05-01.html"> <span itemprop="name headline mainEntityOfPage">#1 Apunio barzda</span>
+                    </a>
                     </div>
                     <ul class="subline">
                         <li>
@@ -230,6 +252,7 @@
     </div>
 </section>
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
+<script src="static/filter-contents.js"></script>
 <script>let disqus_shortname = 'rBeer-by';</script>
 </body>
 </html>

@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8da61e2-123e-47f1-b0f7-7f0778f107bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/filter-contents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/filter-contents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-author.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-author.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contents.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/choise-color.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others.html" beforeDir="false" afterPath="$PROJECT_DIR$/others.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts-others/1-2020-08-05.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts-others/1-2020-08-05.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/1-2020-05-01.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/1-2020-05-01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/2-2020-05-09.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2-2020-05-09.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/3-2020-05-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/3-2020-05-22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/4-2020-06-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/4-2020-06-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/5-2020-06-25.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/5-2020-06-25.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/6-2020-07-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/6-2020-07-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/7-2020-07-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/7-2020-07-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/8-2020-07-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/8-2020-07-22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/9-2020-07-29.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/9-2020-07-29.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/head-color.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/icons-256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/icons-256.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/layout-256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/layout-256.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -105,7 +87,7 @@
       <workItem from="1597430668203" duration="80000" />
       <workItem from="1597545398526" duration="582000" />
       <workItem from="1597572044634" duration="621000" />
-      <workItem from="1597573482237" duration="9062000" />
+      <workItem from="1597573482237" duration="11543000" />
     </task>
     <task id="LOCAL-00001" summary="#2 remove templates directory">
       <created>1596146993350</created>
@@ -345,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597396385880</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="#36 minimal refactor code">
+      <created>1597861002210</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1597861002210</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +342,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#12 fix error page in mobile version" />
     <MESSAGE value="#13 refactor path css files" />
     <MESSAGE value="#14 fix error page" />
     <MESSAGE value="#15 fix #9 posts" />
@@ -378,17 +366,18 @@
     <MESSAGE value="#33 correct path icons-256" />
     <MESSAGE value="#34 git info" />
     <MESSAGE value="#35 change text in index" />
-    <option name="LAST_COMMIT_MESSAGE" value="#35 change text in index" />
+    <MESSAGE value="#36 minimal refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="#36 minimal refactor code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596637357405">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="549" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1596637357405" />
-    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1597396382742">
+    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1597860998869">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1597396382742" />
+    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1597860998869" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1597430752619">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -409,10 +398,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597429898272" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1597396391440">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1597861011061">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1597396391440" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1597861011061" />
     <state x="459" y="109" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596222828489">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
