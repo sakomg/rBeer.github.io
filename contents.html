@@ -37,7 +37,7 @@
         }
 
         @media all and (max-width: 777px) {
-            .wrapper, .disqus, .disqus .hint {
+            .wrapper {
                 line-height: 32px;
                 padding-left: 20px;
                 padding-right: 20px;
@@ -151,103 +151,90 @@
 </div>
 
 <section itemscope="" itemtype="http://schema.org/BlogPosting">
-    <div class="wrapper" style="text-align: center">
+    <div class="wrapper" style="text-align: center;">
         <header itemprop="name"><h1>Содержание</h1></header>
         <div id="button-filter-type">
-            <button class="btn active" onclick="filterSelection('all')"> Показать все</button>
-            <button class="btn" onclick="filterSelection('Светлое')"> Светлое</button>
-            <button class="btn" onclick="filterSelection('Тёмное')"> Тёмное</button>
+            <button class="tag active" onclick="filterSelection('all')"> Показать все</button>
+            <button class="tag" onclick="filterSelection('Светлое')"> Светлое</button>
+            <button class="tag" onclick="filterSelection('Тёмное')"> Тёмное</button>
+            <button class="tag" onclick="filterSelection('Энергетики')"> Энергетики</button>
+            <button class="tag" onclick="filterSelection('Лучшее')"> Лучшее</button>
         </div>
-        <main>
-            <article class="main" itemprop="articleBody"><p></p>
-                <div class="filter-content Тёмное">
-                    <div><a href="posts/9-2020-07-29.html">
-                        <span itemprop="name headline mainEntityOfPage">#9 Аливария Porter</span>
-                    </a>
-                    </div>
-                    <ul class="subline">
-                        <li>
-                            <time datetime="2020-07-29" itemprop="datePublished dateModified">29 июля 2020</time>
-                        </li>
-                    </ul>
-                </div>
-                <div class="filter-content Светлое">
-                    <div><a href="posts/8-2020-07-22.html"> <span
-                            itemprop="name headline mainEntityOfPage">#8 Koronet Lager</span> </a></div>
-                    <ul class="subline">
-                        <li>
-                            <time datetime="2020-07-22" itemprop="datePublished dateModified">22 июля 2020</time>
-                        </li>
-                    </ul>
-                </div>
-                <div class="filter-content Светлое">
-                    <div><a href="posts/7-2020-07-19.html"> <span
-                            itemprop="name headline mainEntityOfPage">#7 Premium Schwarzbier</span> </a></div>
-                    <ul class="subline">
-                        <li>
-                            <time datetime="2020-07-19" itemprop="datePublished dateModified">19 июля 2020</time>
-                        </li>
-                    </ul>
-                </div>
-                <div class="filter-content Тёмное">
-                    <div><a href="posts/6-2020-07-4.html"> <span itemprop="name headline mainEntityOfPage">#6 Vėjas Nupūstas. Tamsusis Elis</span>
-                    </a></div>
-                    <ul class="subline">
-                        <li>
-                            <time datetime="2020-07-04" itemprop="datePublished dateModified">04 июля 2020</time>
-                        </li>
-                    </ul>
-                </div>
-                <div class="filter-content Светлое">
-                    <div><a href="posts/5-2020-06-25.html"> <span
-                            itemprop="name headline mainEntityOfPage">#5 Vilniaus alus</span> </a></div>
-                    <ul class="subline">
-                        <li>
-                            <time datetime="2020-06-25" itemprop="datePublished dateModified">25 июня 2020</time>
-                        </li>
-                    </ul>
-                </div>
-                <div class="filter-content Тёмное">
-                    <div><a href="posts/4-2020-06-10.html"> <span
-                            itemprop="name headline mainEntityOfPage">#4 Марочное</span>
-                    </a></div>
-                    <ul class="subline">
-                        <li>
-                            <time datetime="2020-06-10" itemprop="datePublished dateModified">10 июня 2020</time>
-                        </li>
-                    </ul>
-                </div>
-                <div class="filter-content Светлое">
-                    <div><a href="posts/3-2020-05-22.html"> <span
-                            itemprop="name headline mainEntityOfPage">#3 Hobgoblin</span>
-                    </a></div>
-                    <ul class="subline">
-                        <li>
-                            <time datetime="2020-05-22" itemprop="datePublished dateModified">22 мая 2020</time>
-                        </li>
-                    </ul>
-                </div>
-                <div class="filter-content Тёмное">
-                    <div><a href="posts/2-2020-05-09.html"> <span
-                            itemprop="name headline mainEntityOfPage">#2 Tamsusis</span>
-                    </a></div>
-                    <ul class="subline">
-                        <li>
-                            <time datetime="2020-05-09" itemprop="datePublished dateModified">09 мая 2020</time>
-                        </li>
-                    </ul>
-                </div>
-                <div class="filter-content Тёмное">
-                    <div><a href="posts/1-2020-05-01.html"> <span itemprop="name headline mainEntityOfPage">#1 Apunio barzda</span>
-                    </a>
-                    </div>
-                    <ul class="subline">
-                        <li>
-                            <time datetime="2020-05-01" itemprop="datePublished dateModified">01 мая 2020</time>
-                        </li>
-                    </ul>
-                </div>
-            </article>
+        <main class="content">
+            <div class="filter-content Светлое">
+                <a href="posts/14-2020-08-18.html">
+                    <span itemprop="name headline mainEntityOfPage">American pale ale</span>
+                </a>
+            </div>
+
+            <div class="filter-content Светлое">
+                <a href="posts/13-2020-08-13.html">
+                    <span itemprop="name headline mainEntityOfPage">Негрусти</span>
+                </a>
+            </div>
+            <div class="filter-content Светлое">
+                <a href="posts/12-2020-08-12.html">
+                    <span itemprop="name headline mainEntityOfPage">Доброе утро!</span>
+                </a>
+            </div>
+            <div class="filter-content Светлое">
+                <a href="posts/11-2020-08-09.html">
+                    <span itemprop="name headline mainEntityOfPage">Warka</span>
+                </a>
+            </div>
+            <div class="filter-content Тёмное">
+                <a href="posts/10-2020-08-07.html">
+                    <span itemprop="name headline mainEntityOfPage">Porter 8/20</span>
+                </a>
+            </div>
+            <div class="filter-content Энергетики">
+                <a href="posts-others/1-2020-08-05.html">
+                    <span itemprop="name headline mainEntityOfPage">Tornado Energy</span>
+                </a>
+            </div>
+            <div class="filter-content Тёмное Лучшее">
+                <a href="posts/9-2020-07-29.html">
+                    <span itemprop="name headline mainEntityOfPage">Аливария Porter</span>
+                </a>
+            </div>
+            <div class="filter-content Светлое">
+                <a href="posts/8-2020-07-22.html"> <span
+                        itemprop="name headline mainEntityOfPage">Koronet Lager</span>
+                </a>
+            </div>
+            <div class="filter-content Светлое">
+                <a href="posts/7-2020-07-19.html"> <span
+                        itemprop="name headline mainEntityOfPage">Premium Schwarzbier</span>
+                </a>
+            </div>
+            <div class="filter-content Тёмное">
+                <a href="posts/6-2020-07-4.html"> <span
+                        itemprop="name headline mainEntityOfPage">Vėjas Nupūstas. Tamsusis Elis</span>
+                </a>
+            </div>
+            <div class="filter-content Светлое">
+                <a href="posts/5-2020-06-25.html"> <span
+                        itemprop="name headline mainEntityOfPage">Vilniaus alus</span> </a>
+            </div>
+            <div class="filter-content Тёмное Лучшее">
+                <a href="posts/4-2020-06-10.html"> <span
+                        itemprop="name headline mainEntityOfPage">Марочное</span>
+                </a>
+            </div>
+            <div class="filter-content Светлое">
+                <a href="posts/3-2020-05-22.html"> <span
+                        itemprop="name headline mainEntityOfPage">Hobgoblin</span>
+                </a>
+            </div>
+            <div class="filter-content Тёмное">
+                <a href="posts/2-2020-05-09.html"> <span
+                        itemprop="name headline mainEntityOfPage">Tamsusis</span>
+                </a>
+            </div>
+            <div class="filter-content Тёмное Лучшее">
+                <a href="posts/1-2020-05-01.html"> <span itemprop="name headline mainEntityOfPage">Apunio barzda</span>
+                </a>
+            </div>
         </main>
     </div>
 </section>
