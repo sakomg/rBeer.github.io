@@ -15,7 +15,7 @@
     padding: 1px 5px 1px 5px;
     font-size: 13px;
     font-family: "Source Code Pro", monospace;
-    margin-left: 2px
+    margin-left: 5px
 }
 
 .tag:hover {
@@ -27,16 +27,7 @@
     color: white;
 }
 
-.tag img {
-    display: inline-block;
-    height: 1em;
-    margin-right: .2em;
-    margin-top: -.25em;
-    vertical-align: middle
-}
-
 .content {
     margin: 20px;
-    column-count: 2;
 }
 

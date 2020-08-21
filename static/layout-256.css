@@ -741,6 +741,14 @@ figure figcaption::before {
     color: white;
 }
 
+.tag-256 img {
+    display: inline-block;
+    height: 1em;
+    margin-right: .2em;
+    margin-top: -.25em;
+    vertical-align: middle
+}
+
 .note {
     color: gray;
     font-size: 16px;

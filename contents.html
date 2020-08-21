@@ -154,89 +154,110 @@
     <div class="wrapper">
         <header itemprop="name"><h1>Содержание</h1></header>
         <div id="button-filter-type">
-            <button class="tag-256 active" onclick="filterSelection('all')"> Показать все</button>
-            <button class="tag-256" onclick="filterSelection('Светлое')"> Светлое</button>
-            <button class="tag-256" onclick="filterSelection('Тёмное')"> Тёмное</button>
-            <button class="tag-256" onclick="filterSelection('Энергетики')"> Энергетики</button>
-            <button class="tag-256" onclick="filterSelection('Лучшее')"> Лучшее</button>
-            <button class="tag-256" onclick="filterSelection('Крафтовое')">Крафтовое</button>
-            <button class="tag-256" onclick="filterSelection('Бутылочное')">Бутылочное</button>
-            <button class="tag-256" onclick="filterSelection('Нефильтрованное')">Нефильтрованное</button>
+            <button class="tag-256 active" onclick="filterSelection('all')"><img src="https://image.flaticon.com/icons/svg/918/918697.svg" alt="все">Показать все</button>
+            <button class="tag-256" onclick="filterSelection('Светлое')"><img src="https://image.flaticon.com/icons/svg/2331/2331713.svg" alt="светлое">Светлое</button>
+            <button class="tag-256" onclick="filterSelection('Тёмное')"><img src="https://www.flaticon.com/premium-icon/icons/svg/2622/2622593.svg" alt="темное">Тёмное</button>
+            <button class="tag-256" onclick="filterSelection('Энергетики')"><img src="https://image.flaticon.com/icons/svg/2619/2619512.svg" alt="энергетик">Энергетики</button>
+            <button class="tag-256" onclick="filterSelection('Лучшее')"><img src="https://image.flaticon.com/icons/svg/744/744480.svg" alt="лучшее">Лучшее</button>
+            <button class="tag-256" onclick="filterSelection('Крафтовое')"><img src="https://image.flaticon.com/icons/svg/931/931949.svg" alt="крафтовое">Крафтовое</button>
+            <button class="tag-256" onclick="filterSelection('Бутылочное')"><img src="https://image.flaticon.com/icons/svg/2331/2331745.svg" alt="бутылочное">Бутылочное</button>
+            <button class="tag-256" onclick="filterSelection('Нефильтрованное')"><img src="https://www.flaticon.com/premium-icon/icons/svg/2276/2276668.svg" alt="нефильтрованное">Нефильтрованное</button>
         </div>
-        <main class="content">
+        <main class="content" id="contents">
             <div class="filter-content Светлое">
                 <a href="posts/14-2020-08-18.html">
                     <span itemprop="name headline mainEntityOfPage">American pale ale</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Светлое')>Светлое</span>
             </div>
 
             <div class="filter-content Светлое">
                 <a href="posts/13-2020-08-13.html">
                     <span itemprop="name headline mainEntityOfPage">Негрусти</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Светлое')>Светлое</span>
             </div>
             <div class="filter-content Светлое">
                 <a href="posts/12-2020-08-12.html">
                     <span itemprop="name headline mainEntityOfPage">Доброе утро!</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Светлое')>Светлое</span>
             </div>
             <div class="filter-content Светлое">
                 <a href="posts/11-2020-08-09.html">
                     <span itemprop="name headline mainEntityOfPage">Warka</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Светлое')>Светлое</span>
             </div>
             <div class="filter-content Тёмное">
                 <a href="posts/10-2020-08-07.html">
                     <span itemprop="name headline mainEntityOfPage">Porter 8/20</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Тёмное')>Тёмное</span>
             </div>
             <div class="filter-content Энергетики">
                 <a href="posts-others/1-2020-08-05.html">
                     <span itemprop="name headline mainEntityOfPage">Tornado Energy</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Энергетики')>Энергетики</span>
             </div>
             <div class="filter-content Тёмное Лучшее Бутылочное">
                 <a href="posts/9-2020-07-29.html">
                     <span itemprop="name headline mainEntityOfPage">Аливария Porter</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Тёмное')>Тёмное</span>
+                <span class="tag" onclick=filterSelection('Лучшее')>Лучшее</span>
+                <span class="tag" onclick=filterSelection('Бутылочное')>Бутылочное</span>
             </div>
             <div class="filter-content Светлое">
                 <a href="posts/8-2020-07-22.html"> <span
                         itemprop="name headline mainEntityOfPage">Koronet Lager</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Светлое')>Светлое</span>
             </div>
             <div class="filter-content Светлое">
                 <a href="posts/7-2020-07-19.html"> <span
                         itemprop="name headline mainEntityOfPage">Premium Schwarzbier</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Светлое')>Светлое</span>
             </div>
             <div class="filter-content Тёмное">
                 <a href="posts/6-2020-07-4.html"> <span
                         itemprop="name headline mainEntityOfPage">Vėjas Nupūstas. Tamsusis Elis</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Тёмное')>Тёмное</span>
             </div>
             <div class="filter-content Светлое">
                 <a href="posts/5-2020-06-25.html"> <span
-                        itemprop="name headline mainEntityOfPage">Vilniaus alus</span> </a>
+                        itemprop="name headline mainEntityOfPage">Vilniaus alus</span>
+                </a>
+                <span class="tag" onclick=filterSelection('Светлое')>Светлое</span>
             </div>
             <div class="filter-content Тёмное Лучшее">
                 <a href="posts/4-2020-06-10.html"> <span
                         itemprop="name headline mainEntityOfPage">Марочное</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Тёмное')>Тёмное</span>
+                <span class="tag" onclick=filterSelection('Лучшее')>Лучшее</span>
             </div>
             <div class="filter-content Светлое">
                 <a href="posts/3-2020-05-22.html"> <span
                         itemprop="name headline mainEntityOfPage">Hobgoblin</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Светлое')>Светлое</span>
             </div>
             <div class="filter-content Тёмное">
                 <a href="posts/2-2020-05-09.html"> <span
                         itemprop="name headline mainEntityOfPage">Tamsusis</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Тёмное')>Тёмное</span>
             </div>
             <div class="filter-content Тёмное Лучшее">
-                <a href="posts/1-2020-05-01.html"> <span itemprop="name headline mainEntityOfPage">Apunio barzda</span>
+                <a href="posts/1-2020-05-01.html"> <span
+                        itemprop="name headline mainEntityOfPage">Apunio barzda</span>
                 </a>
+                <span class="tag" onclick=filterSelection('Тёмное')>Тёмное</span>
+                <span class="tag" onclick=filterSelection('Лучшее')>Лучшее</span>
             </div>
         </main>
     </div>
