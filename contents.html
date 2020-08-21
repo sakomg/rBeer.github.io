@@ -151,14 +151,17 @@
 </div>
 
 <section itemscope="" itemtype="http://schema.org/BlogPosting">
-    <div class="wrapper" style="text-align: center;">
+    <div class="wrapper">
         <header itemprop="name"><h1>Содержание</h1></header>
         <div id="button-filter-type">
-            <button class="tag active" onclick="filterSelection('all')"> Показать все</button>
-            <button class="tag" onclick="filterSelection('Светлое')"> Светлое</button>
-            <button class="tag" onclick="filterSelection('Тёмное')"> Тёмное</button>
-            <button class="tag" onclick="filterSelection('Энергетики')"> Энергетики</button>
-            <button class="tag" onclick="filterSelection('Лучшее')"> Лучшее</button>
+            <button class="tag-256 active" onclick="filterSelection('all')"> Показать все</button>
+            <button class="tag-256" onclick="filterSelection('Светлое')"> Светлое</button>
+            <button class="tag-256" onclick="filterSelection('Тёмное')"> Тёмное</button>
+            <button class="tag-256" onclick="filterSelection('Энергетики')"> Энергетики</button>
+            <button class="tag-256" onclick="filterSelection('Лучшее')"> Лучшее</button>
+            <button class="tag-256" onclick="filterSelection('Крафтовое')">Крафтовое</button>
+            <button class="tag-256" onclick="filterSelection('Бутылочное')">Бутылочное</button>
+            <button class="tag-256" onclick="filterSelection('Нефильтрованное')">Нефильтрованное</button>
         </div>
         <main class="content">
             <div class="filter-content Светлое">
@@ -192,7 +195,7 @@
                     <span itemprop="name headline mainEntityOfPage">Tornado Energy</span>
                 </a>
             </div>
-            <div class="filter-content Тёмное Лучшее">
+            <div class="filter-content Тёмное Лучшее Бутылочное">
                 <a href="posts/9-2020-07-29.html">
                     <span itemprop="name headline mainEntityOfPage">Аливария Porter</span>
                 </a>
@@ -241,5 +244,11 @@
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
 <script src="static/filter-contents.js"></script>
 <script>let disqus_shortname = 'rBeer-by';</script>
+<script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l += new Date;
+    ga('create', 'UA-176052574-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 </body>
 </html>

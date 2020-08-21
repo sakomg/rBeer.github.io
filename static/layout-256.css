@@ -717,7 +717,7 @@ figure figcaption::before {
     margin: 20px 0
 }
 
-.tag {
+.tag-256 {
     background-color: gray;
     color: white !important;
     font-family: "Source Code Pro", monospace;
@@ -728,20 +728,17 @@ figure figcaption::before {
     white-space: nowrap
 }
 
-.tag img {
-    display: inline-block;
-    height: 1em;
-    margin-right: .2em;
-    margin-top: -.25em;
-    vertical-align: middle
-}
-
-.tag:visited {
+.tag-256:visited {
     color: white !important
 }
 
-.tag:hover {
+.tag-256:hover {
     background-color: black
+}
+
+.tag-256.active {
+    background-color: #3f3f3f;
+    color: white;
 }
 
 .note {

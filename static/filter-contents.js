@@ -31,7 +31,7 @@ function w3RemoveClass(element, name) {
 }
 
 var btnFilterType = document.getElementById("button-filter-type");
-var tags = btnFilterType.getElementsByClassName("tag");
+var tags = btnFilterType.getElementsByClassName("tag-256");
 for (var i = 0; i < tags.length; i++) {
     tags[i].addEventListener("click", function(){
         var current = document.getElementsByClassName("active");
