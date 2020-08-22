@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     z-index: 99999;
+    transition: top 0.4s;
 }
 
 .header-main * {
