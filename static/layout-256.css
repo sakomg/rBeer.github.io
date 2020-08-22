@@ -796,3 +796,7 @@ table th {
     color: black;
     font-size: 10px;
 }
+
+a img {
+    border: none;
+}
