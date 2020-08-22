@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8da61e2-123e-47f1-b0f7-7f0778f107bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -436,7 +436,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#29 create CNAME file" />
     <MESSAGE value="#30 delete CNAME file" />
     <MESSAGE value="#31 add js" />
     <MESSAGE value="#31 fix title in error page" />
@@ -461,7 +460,8 @@
     <MESSAGE value="#50 add new posts to contents" />
     <MESSAGE value="#51 fix date in 3-2020-08-20.html" />
     <MESSAGE value="#52 add README" />
-    <option name="LAST_COMMIT_MESSAGE" value="#52 add README" />
+    <MESSAGE value="#56 add link to logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="#56 add link to logo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="108" key="#Inspections" timestamp="1597863569151">
