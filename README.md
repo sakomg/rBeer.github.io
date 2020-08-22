@@ -1,6 +1,5 @@
 <img src="https://image.flaticon.com/icons/svg/803/803730.svg" width = "100px" height = "100px" alt="rBeer-icon">
 <br>
-<br>
 
 This is my site with reviews of some things: [https://fishand4ips.github.io](https://fishand4ips.github.io/git-pages-site/)
 
