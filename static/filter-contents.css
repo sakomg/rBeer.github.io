@@ -15,7 +15,8 @@
     padding: 1px 5px 1px 5px;
     font-size: 13px;
     font-family: "Source Code Pro", monospace;
-    margin-left: 5px
+    margin-left: 5px;
+    cursor: pointer;
 }
 
 .tag:hover {
