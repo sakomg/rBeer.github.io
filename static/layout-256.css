@@ -791,3 +791,8 @@ table th {
     margin-left: auto;
     margin-right: auto
 }
+
+.read-more {
+    color: black;
+    font-size: 10px;
+}

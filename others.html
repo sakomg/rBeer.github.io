@@ -9,7 +9,7 @@
     <link href="static/icons-256.css" rel="stylesheet"/>
     <link href="static/layout-256.css" rel="stylesheet"/>
     <link href="static/nav-bar.css" rel="stylesheet"/>
-
+    <link href="static/grid.css" rel="stylesheet"/>
     <style>
         .photo {
             border: 3px solid darkred;
@@ -39,7 +39,7 @@
         }
 
         @media all and (max-width: 777px) {
-            .wrapper, .disqus, .disqus .hint {
+            .wrapper {
                 line-height: 32px;
                 padding-left: 20px;
                 padding-right: 20px;
@@ -65,9 +65,7 @@
                 margin-top: 65px
             }
         }
-
     </style>
-
 </head>
 
 <body>
@@ -150,13 +148,54 @@
     </header>
 </div>
 
+<div class="wrapper">
+    <header itemprop="name"><h1>Разное</h1></header>
+    <p>Здесь я буду показывать и рассказывать о вещах, которые не относится к категории пивных напитков.</p>
+</div>
+
+<div class="post-wrapper">
+    <div>
+        <div class="post">
+            <img class="thumbnail" src="images/1-tornado-energy-orig.jpg" alt="tornado energy">
+            <div class="post-preview">
+                <h6 class="post-title">Tornado Energy</h6>
+                <p class="post-intro">Сладкая газировка с кофе, у которого запах
+                    очень отдает конфетами "Meller", что не может радовать вкусовые рецепторы.&#128516;</p>
+                <a style="color: black;font-size: 14px" href="posts-others/1-2020-08-05.html" itemprop="url"> Читать далее... </a>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="post">
+            <img class="thumbnail" src="images/%2311-warka.jpg">
+            <div class="post-preview">
+                <h6 class="post-title">Online Store - CoursePost Title</h6>
+                <p class="post-intro">Online store with paypal payments intergration and guest user shopping</p>
+                <a href="post.html">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="post">
+            <img class="thumbnail" src="images/%2310-porter-8-20.jpg">
+            <div class="post-preview">
+                <h6 class="post-title">Membership Website</h6>
+                <p class="post-intro">Modulized guide for online courses with step by  step intructions</p>
+                <a href="post.html">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div itemscope="" itemtype="http://schema.org/Blog">
     <div class="wrapper">
         <section class="front" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
             <div itemprop="author" itemscope="" itemtype="http://schema.org/Person">
                 <meta content="Саша Комегунов" itemprop="name"/>
             </div>
-            <header><h1><a href="posts-others/1-2020-08-05.html"> <span itemprop="name headline mainEntityOfPage">#1 Tornado Energy</span>
+            <header><h1><a href="posts-others/1-2020-08-05.html"> <span itemprop="name headline mainEntityOfPage">#1 </span>
             </a></h1>
                 <ul class="subline">
                     <li>
@@ -170,8 +209,7 @@
             </header>
             <div class="main" itemprop="description">
                 <article class="main" itemprop="articleBody">
-                    <p>Вкус у него довольно простой: Сладкая газировка с кофе, у которого запах
-                        очень отдает конфетами "Meller", что не может радовать вкусовые рецепторы &#128516;.</p>
+                    <p></p>
                     <figure class="jb_picture"><img alt="Tornado Energy" itemprop="image"
                                                     longdesc="#7e92b176"
                                                     src="images/1-tornado-energy-orig.jpg"/>

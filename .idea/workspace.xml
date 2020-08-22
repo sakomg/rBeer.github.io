@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8da61e2-123e-47f1-b0f7-7f0778f107bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others.html" beforeDir="false" afterPath="$PROJECT_DIR$/others.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/filter-contents.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/filter-contents.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/layout-256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/layout-256.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +88,7 @@
       <workItem from="1597430668203" duration="80000" />
       <workItem from="1597545398526" duration="582000" />
       <workItem from="1597572044634" duration="621000" />
-      <workItem from="1597573482237" duration="37979000" />
+      <workItem from="1597573482237" duration="44369000" />
     </task>
     <task id="LOCAL-00001" summary="#2 remove templates directory">
       <created>1596146993350</created>
@@ -393,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598048769070</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="#46 fix link in 404">
+      <created>1598048992546</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1598048992546</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +413,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#22 add link to photo face" />
     <MESSAGE value="#23 first version about-author" />
     <MESSAGE value="#24 add photo team and icon for disqus" />
     <MESSAGE value="#25 correct about-author" />
@@ -426,7 +437,8 @@
     <MESSAGE value="#43 change design tag in contents" />
     <MESSAGE value="#44 add icons in contents" />
     <MESSAGE value="#45 change images in index-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="#45 change images in index-2" />
+    <MESSAGE value="#46 fix link in 404" />
+    <option name="LAST_COMMIT_MESSAGE" value="#46 fix link in 404" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="108" key="#Inspections" timestamp="1597863569151">
@@ -437,10 +449,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="549" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1596637357405" />
-    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1598048765785">
+    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1598048989723">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1598048765785" />
+    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1598048989723" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1597430752619">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -461,10 +473,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597429898272" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598048772892">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598048996008">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1598048772892" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1598048996008" />
     <state x="459" y="109" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596222828489">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
