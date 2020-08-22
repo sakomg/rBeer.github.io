@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8da61e2-123e-47f1-b0f7-7f0778f107bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/2-energetic-bizon-orig.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2-energetic-bizon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3-energetic-burn-orig.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3-energetic-burn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-others/2-2020-08-19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts-others/3-2020-08-20.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/nav-active.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/others.html" beforeDir="false" afterPath="$PROJECT_DIR$/others.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts-others/1-2020-08-05.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts-others/1-2020-08-05.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/nav-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/nav-bar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -83,7 +94,7 @@
       <workItem from="1597430668203" duration="80000" />
       <workItem from="1597545398526" duration="582000" />
       <workItem from="1597572044634" duration="621000" />
-      <workItem from="1597573482237" duration="44719000" />
+      <workItem from="1597573482237" duration="48485000" />
     </task>
     <task id="LOCAL-00001" summary="#2 remove templates directory">
       <created>1596146993350</created>
@@ -407,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598078889783</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="#48 fix grid in other page">
+      <created>1598079390240</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1598079390240</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,7 +433,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#24 add photo team and icon for disqus" />
     <MESSAGE value="#25 correct about-author" />
     <MESSAGE value="#26 add first info in others" />
     <MESSAGE value="#27 create first post in others" />
@@ -440,7 +457,8 @@
     <MESSAGE value="#45 change images in index-2" />
     <MESSAGE value="#46 fix link in 404" />
     <MESSAGE value="#47 started grid in other page" />
-    <option name="LAST_COMMIT_MESSAGE" value="#47 started grid in other page" />
+    <MESSAGE value="#48 fix grid in other page" />
+    <option name="LAST_COMMIT_MESSAGE" value="#48 fix grid in other page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="108" key="#Inspections" timestamp="1597863569151">
@@ -451,10 +469,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="549" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1596637357405" />
-    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1598078886446">
+    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1598079388545">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1598078886446" />
+    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1598079388545" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1597430752619">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -475,10 +493,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597429898272" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598078891099">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598079394550">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1598078891099" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1598079394549" />
     <state x="459" y="109" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596222828489">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

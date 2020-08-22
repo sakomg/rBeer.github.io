@@ -11,6 +11,12 @@
     max-width: 777px
 }
 
+@media all and (max-width: 777px) {
+    .post-wrapper {
+        margin-top: -35px;
+    }
+}
+
 .post{
     /*border:2px solid white;*/
     -webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
