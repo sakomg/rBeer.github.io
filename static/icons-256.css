@@ -7,7 +7,10 @@
     font-weight: normal;
     font-style: normal;
 }
-[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before {
+    content: attr(data-icon);
+}
 
 [data-icon]:before,
 .icon-angellist:before,
@@ -56,35 +59,130 @@
     font-smoothing: antialiased;
 }
 
-.icon-angellist:before { content: "\f100"; }
-.icon-coderanch:before { content: "\f101"; }
-.icon-comments:before { content: "\f102"; }
-.icon-delicious:before { content: "\f103"; }
-.icon-digg:before { content: "\f104"; }
-.icon-exit:before { content: "\f105"; }
-.icon-facebook:before { content: "\f106"; }
-.icon-fast-backward:before { content: "\f107"; }
-.icon-fast-forward:before { content: "\f108"; }
-.icon-github:before { content: "\f109"; }
-.icon-gitter:before { content: "\f10a"; }
-.icon-googleplus:before { content: "\f10b"; }
-.icon-hackernews:before { content: "\f10c"; }
-.icon-instagram:before { content: "\f10d"; }
-.icon-itunes:before { content: "\f10e"; }
-.icon-link:before { content: "\f10f"; }
-.icon-linkedin:before { content: "\f110"; }
-.icon-mail:before { content: "\f111"; }
-.icon-no:before { content: "\f112"; }
-.icon-odnoklassniki:before { content: "\f113"; }
-.icon-pdf:before { content: "\f114"; }
-.icon-pinterest:before { content: "\f115"; }
-.icon-play:before { content: "\f116"; }
-.icon-podcast:before { content: "\f117"; }
-.icon-reddit:before { content: "\f118"; }
-.icon-rss:before { content: "\f119"; }
-.icon-stackoverflow:before { content: "\f11a"; }
-.icon-telegram:before { content: "\f11b"; }
-.icon-twitter:before { content: "\f11c"; }
-.icon-vk:before { content: "\f11d"; }
-.icon-yes:before { content: "\f11e"; }
-.icon-youtube:before { content: "\f11f"; }
+.icon-angellist:before {
+    content: "\f100";
+}
+
+.icon-coderanch:before {
+    content: "\f101";
+}
+
+.icon-comments:before {
+    content: "\f102";
+}
+
+.icon-delicious:before {
+    content: "\f103";
+}
+
+.icon-digg:before {
+    content: "\f104";
+}
+
+.icon-exit:before {
+    content: "\f105";
+}
+
+.icon-facebook:before {
+    content: "\f106";
+}
+
+.icon-fast-backward:before {
+    content: "\f107";
+}
+
+.icon-fast-forward:before {
+    content: "\f108";
+}
+
+.icon-github:before {
+    content: "\f109";
+}
+
+.icon-gitter:before {
+    content: "\f10a";
+}
+
+.icon-googleplus:before {
+    content: "\f10b";
+}
+
+.icon-hackernews:before {
+    content: "\f10c";
+}
+
+.icon-instagram:before {
+    content: "\f10d";
+}
+
+.icon-itunes:before {
+    content: "\f10e";
+}
+
+.icon-link:before {
+    content: "\f10f";
+}
+
+.icon-linkedin:before {
+    content: "\f110";
+}
+
+.icon-mail:before {
+    content: "\f111";
+}
+
+.icon-no:before {
+    content: "\f112";
+}
+
+.icon-odnoklassniki:before {
+    content: "\f113";
+}
+
+.icon-pdf:before {
+    content: "\f114";
+}
+
+.icon-pinterest:before {
+    content: "\f115";
+}
+
+.icon-play:before {
+    content: "\f116";
+}
+
+.icon-podcast:before {
+    content: "\f117";
+}
+
+.icon-reddit:before {
+    content: "\f118";
+}
+
+.icon-rss:before {
+    content: "\f119";
+}
+
+.icon-stackoverflow:before {
+    content: "\f11a";
+}
+
+.icon-telegram:before {
+    content: "\f11b";
+}
+
+.icon-twitter:before {
+    content: "\f11c";
+}
+
+.icon-vk:before {
+    content: "\f11d";
+}
+
+.icon-yes:before {
+    content: "\f11e";
+}
+
+.icon-youtube:before {
+    content: "\f11f";
+}
