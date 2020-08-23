@@ -9,19 +9,16 @@
     <link href="static/icons-256.css" rel="stylesheet"/>
     <link href="static/layout-256.css" rel="stylesheet"/>
     <link href="static/nav-bar.css" rel="stylesheet"/>
-
     <style>
         .photo {
             border: 3px solid darkred;
             position: static;
         }
-
         .quote span {
             display: block;
             font-size: .8em;
             text-align: right
         }
-
         body {
             background-color: black;
             color: white;
@@ -34,7 +31,6 @@
             position: relative;
             top: 35px
         }
-
         @media all and (max-width: 777px) {
             .wrapper {
                 line-height: 32px;
@@ -44,25 +40,16 @@
                 margin-top: -45px;
             }
         }
-
         @media all and (max-width: 777px) {
             .header-main {
                 display: none;
             }
         }
-
         @media all and (min-width: 777px) {
             .header-mobile {
                 display: none;
             }
         }
-
-        @media all and (max-width: 777px) {
-            .pagination {
-                margin-top: 65px
-            }
-        }
-
     </style>
 
 </head>
@@ -76,7 +63,7 @@
             <li><a class="active-tab" href="index.html" title="Главная страница">Главная</a></li>
             <li><a class="active-tab" href="contents.html" title="Содержание веб-страницы">Содержание</a></li>
             <li><a class="active-tab" href="others.html" title="Обо всем">Разное</a></li>
-            <li><a class="active-tab" href="about-author.html" title="О создателе отзывов"
+            <li class="selected"><a class="active-tab" href="about-author.html" title="О создателе отзывов"
                    style="color:darkred">
                 <img alt="Deuis"
                      class="dino-icon" src="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595944948/dino-deus_wbeklw.png"
@@ -161,17 +148,19 @@
                     </figure>
                 </p>
                 <p>
-                    Денис <a href="https://vk.com/moreovah" title="Написать Денису">moreovah</a> Антипенко, программист-бухгалтер по образованию. Соответственно, все
+                    Денис <a href="https://t.me/Deuis" title="Написать Денису">moreovah</a> Антипенко, программист-бухгалтер по образованию. Соответственно, все
                     его отзывы основаны исключительно на личном опыте. За всю свою карьеру в этой области, а это около 5 лет, через него было пройдено
                     большое количество самых различных видов пенного. Исходя из этих соображений мною было принято решение собрать все его труды в одном месте.
                 </p>
                 <p>
-                    Я, Александр <a href="https://vk.com/id178700474" title="Написать Александру">fishand4ips</a> Комегунов - разработчик, дизайнер и тестировщик данного сайта.
+                    Я, Александр <a href="https://t.me/saskakomegunov" title="Написать Александру">fishand4ips</a> Комегунов - разработчик, дизайнер и тестировщик данного сайта.
                     Все пожелания и рекомендации, если таковы имеются,
                     можно прислать <a href="mailto:alekomegunov@gmail.com" title="Моя почта alekomegunov@gmail.com">сюда</a>.
                 </p>
                 <p>
-                    Помимо основных боевых единиц в дальнейшем сопровождении веб-сайта будут принимать участие Илья и Антон. Знакомьтесь со всей командой:
+                    Помимо основных боевых единиц в дальнейшем сопровождении веб-сайта будут принимать участие
+                    <a href="https://t.me/melnique" title="Написать Илье">Илья</a>
+                    и <a href="https://instagram.com/cgfqc.328?igshid=tzyef44esols" title="Написать Антону">Антон</a>. Знакомьтесь со всей командой:
                     <figure class="jb_picture"><img alt="png mafia" itemprop="image"
                                                     longdesc="#7e92b176"
                                                     src="images/team.jpg"/>
@@ -195,6 +184,6 @@
 
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
 <script>var disqus_shortname = 'rBeer-by';</script>
-<script src="static/navscroll.js"></script>
+<script src="static/nav-scroll.js"></script>
 </body>
 </html>

@@ -28,7 +28,7 @@
     text-decoration: none;
 }
 
-.active-tab:hover {
+.active-tab:hover, .selected {
     text-decoration: underline;
     text-decoration-thickness: 2px
 }
