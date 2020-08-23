@@ -14,7 +14,6 @@
             border: 3px solid darkred;
             position: static;
         }
-
         .quote span {
             display: block;
             font-size: .8em;
@@ -46,27 +45,22 @@
                 margin-top: -45px;
             }
         }
-
         @media all and (max-width: 777px) {
             .header-main {
                 display: none;
             }
         }
-
         @media all and (min-width: 777px) {
             .header-mobile {
                 display: none;
             }
         }
-
         @media all and (max-width: 777px) {
             .pagination {
                 margin-top: 65px
             }
         }
-
     </style>
-
 </head>
 
 <body>
@@ -94,14 +88,14 @@
     </aside>
     <header class="header" id="header">
         <div class="face">
-            <a onclick = "subscribeOnButton();" href = "javascript:void (0)" class="sub">Подписаться</a>
-            <a href="https://t.me/saskakomegunov">
+            <a href="index.html">
                 <img alt="Саша Комегунов"
                      class="photo"
                      src="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595748957/photo-256x256-square_dlqjfi.jpg"
                      title="Саша Комегунов"/>
             </a>
         </div>
+        <a onclick = "subscribeOnButton();" href ="javascript:void(0)" class="sub">Подписаться</a>
         <nav>
             <ul class="menu social notranslate">
                 <li><a href="https://t.me/saskakomegunov" rel="nofollow"
@@ -384,10 +378,13 @@
 <script>
     function subscribeOnButton() {
         window._peq.push (['subscribe', 'segment_name', function (res) {
-            if (res.statuscode == 1)
+            if (res.statuscode === 1)
             {
                 console.log (res);
-                alert(res);
+                alert("res");
+            }
+            else {
+                alert("hi")
             }
         } ]);
     }

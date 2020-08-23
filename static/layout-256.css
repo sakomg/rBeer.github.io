@@ -383,7 +383,7 @@ blockquote {
 }
 
 @media all and (max-width: 777px) {
-    .highlighttable .linenos, .youtube, .quote, .book, .desktop-only, .header, .header .search .google, .header .face .hire, .header .face .sub, .footer, h2 .link, blockquote p::before {
+    .highlighttable .linenos, .youtube, .quote, .book, .desktop-only, .header, .header .search .google, .header .face .hire, .footer, h2 .link, blockquote p::before {
         display: none
     }
 }
@@ -533,15 +533,9 @@ del {
     top: 0
 }
 
-.header .face .sub {
+.header .sub {
     color: darkred;
-    margin-top: 30px;
-    position: absolute;
-    left: 50%;
-    text-align: right;
     text-decoration: underline;
-    margin-left: 50px;
-    font-size: 16px;
 }
 
 .footer {
