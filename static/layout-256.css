@@ -534,13 +534,14 @@ del {
 }
 
 .header .face .sub {
-    color: darkgreen;
-    margin-right: 45px;
+    color: darkred;
+    margin-top: 30px;
     position: absolute;
-    right: 50%;
+    left: 50%;
     text-align: right;
     text-decoration: underline;
-    top: 50px
+    margin-left: 50px;
+    font-size: 16px;
 }
 
 .footer {

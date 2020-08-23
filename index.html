@@ -94,6 +94,7 @@
     </aside>
     <header class="header" id="header">
         <div class="face">
+            <a onclick = "subscribeOnButton();" href = "javascript:void (0)" class="sub">Подписаться</a>
             <a href="https://t.me/saskakomegunov">
                 <img alt="Саша Комегунов"
                      class="photo"
@@ -378,5 +379,18 @@
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
 <script>let disqus_shortname = 'rBeer-by';</script>
 <script src="static/nav-scroll.js"></script>
+<script> window._peq = window._peq || []; window._peq.push(["init"]); </script>
+<script src="https://clientcdn.pushengage.com/core/9a071805-b0a3-4422-a63b-b75667c8.js" async></script>
+<script>
+    function subscribeOnButton() {
+        window._peq.push (['subscribe', 'segment_name', function (res) {
+            if (res.statuscode == 1)
+            {
+                console.log (res);
+                alert(res);
+            }
+        } ]);
+    }
+</script>
 </body>
 </html>
