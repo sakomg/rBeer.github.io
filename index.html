@@ -375,19 +375,6 @@
 <script src="static/nav-scroll.js"></script>
 <script> window._peq = window._peq || []; window._peq.push(["init"]); </script>
 <script src="https://clientcdn.pushengage.com/core/9a071805-b0a3-4422-a63b-b75667c8.js" async></script>
-<script>
-    function subscribeOnButton() {
-        window._peq.push (['subscribe', 'segment_name', function (res) {
-            if (res.statuscode === 1)
-            {
-                console.log (res);
-                alert("res");
-            }
-            else {
-                alert("hi")
-            }
-        } ]);
-    }
-</script>
+<script src="static/subscribe.js"></script>
 </body>
 </html>
