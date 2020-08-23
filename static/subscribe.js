@@ -1,3 +1,4 @@
+var color = 'gray';
 function subscribeOnButton() {
     window._peq.push(['subscriber-status', function (res) {
         if (res.statuscode === 1) {
@@ -10,4 +11,9 @@ function subscribeOnButton() {
         }
     }]);
 }
+
+function change(identifier) {
+    identifier.style.color = color;
+}
+
 
