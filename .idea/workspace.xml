@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8da61e2-123e-47f1-b0f7-7f0778f107bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/layout-256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/layout-256.css" afterDir="false" />
-    </list>
+    <list default="true" id="d8da61e2-123e-47f1-b0f7-7f0778f107bc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,13 +85,6 @@
       <workItem from="1597545398526" duration="582000" />
       <workItem from="1597572044634" duration="621000" />
       <workItem from="1597573482237" duration="53192000" />
-    </task>
-    <task id="LOCAL-00010" summary="#11 fix indent between disqus and img in mobile version">
-      <created>1596285025064</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1596285025064</updated>
     </task>
     <task id="LOCAL-00011" summary="#12 fix error page in mobile version">
       <created>1596285318528</created>
@@ -435,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598183559557</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="#60 create subscribe functionality">
+      <created>1598191428133</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1598191428133</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,10 +473,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="549" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1596637357405" />
-    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1598183554368">
+    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1598191425933">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1598183554368" />
+    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1598191425933" />
     <state x="239" y="60" key="DiffContextDialog" timestamp="1598103072182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -511,10 +505,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597429898272" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598183563254">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598191431280">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1598183563254" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1598191431280" />
     <state x="459" y="109" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596222828489">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
