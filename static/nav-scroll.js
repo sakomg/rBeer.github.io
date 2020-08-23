@@ -7,4 +7,4 @@ window.onscroll = function () {
         document.querySelector('.header-main').style.top = "-50px";
     }
     prevScrollpos = currentScrollPos;
-}
+};
