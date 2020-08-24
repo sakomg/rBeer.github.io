@@ -12,14 +12,6 @@ function subscribeOnButton() {
 }
 
 
-localStorage.setItem('color', 'green');
-localStorage.setItem('sub', 'Вы подписаны');
-function change() {
-    // identifier.style.color = localStorage.getItem('color');
-    document.getElementById("subscriber").innerHTML = localStorage.getItem("sub");
-    document.getElementById("subscriber").style.color = localStorage.getItem("color");
-}
-
 
 
 
