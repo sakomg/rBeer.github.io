@@ -15,15 +15,10 @@
             border: 3px solid darkred;
             position: static;
         }
-
         .quote span {
             display: block;
             font-size: .8em;
             text-align: right
-        }
-        .front {
-            margin-bottom: 20px;
-            margin-top: 80px
         }
         body {
             background-color: black;
@@ -37,7 +32,6 @@
             position: relative;
             top: 35px
         }
-
         @media all and (max-width: 777px) {
             .wrapper {
                 line-height: 32px;
@@ -48,22 +42,14 @@
                 margin-bottom: 70px;
             }
         }
-
         @media all and (max-width: 777px) {
             .header-main {
                 display: none;
             }
         }
-
         @media all and (min-width: 777px) {
             .header-mobile {
                 display: none;
-            }
-        }
-
-        @media all and (max-width: 777px) {
-            .pagination {
-                margin-top: 65px
             }
         }
     </style>
@@ -101,6 +87,7 @@
                      title="Саша Комегунов"/>
             </a>
         </div>
+        <button id="subscriber" onclick = "subscribeOnButton()" class="buttons">Подписаться</button>
         <nav>
             <ul class="menu social notranslate">
                 <li><a href="https://t.me/saskakomegunov" rel="nofollow"
@@ -202,7 +189,10 @@
     </footer>
 </div>
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
-<script>var disqus_shortname = 'rBeer-by';</script>
 <script src="static/nav-scroll.js"></script>
+<script src="static/subscribe.js"></script>
+<script> let disqus_shortname = 'rBeer-by';</script>
+<script> window._peq = window._peq || []; window._peq.push(["init"]);</script>
+<script src="https://clientcdn.pushengage.com/core/9a071805-b0a3-4422-a63b-b75667c8.js" async></script>
 </body>
 </html>
