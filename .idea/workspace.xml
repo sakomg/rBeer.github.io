@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8da61e2-123e-47f1-b0f7-7f0778f107bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-author.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-author.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/others.html" beforeDir="false" afterPath="$PROJECT_DIR$/others.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/changer-sub.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/filter-contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/filter-contents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/layout-256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/layout-256.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/subscribe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/subscribe.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/subscribe.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,21 +101,7 @@
       <workItem from="1597545398526" duration="582000" />
       <workItem from="1597572044634" duration="621000" />
       <workItem from="1597573482237" duration="53192000" />
-      <workItem from="1598195048901" duration="31423000" />
-    </task>
-    <task id="LOCAL-00019" summary="#20 change comments">
-      <created>1596367981022</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1596367981022</updated>
-    </task>
-    <task id="LOCAL-00020" summary="#21 change nav-bar">
-      <created>1596387313512</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1596387313512</updated>
+      <workItem from="1598195048901" duration="31940000" />
     </task>
     <task id="LOCAL-00021" summary="#22 add link to photo face">
       <created>1596387877197</created>
@@ -457,7 +432,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598275241408</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="#65 fix sub button">
+      <created>1598298004181</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1598298004181</updated>
+    </task>
+    <task id="LOCAL-00069" summary="#66 fix count button">
+      <created>1598298379516</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1598298379516</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,8 +454,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#37 add elementary filter contents" />
-    <MESSAGE value="#38 add 10 post and preparation 11-14" />
     <MESSAGE value="#39 add 11-14 post" />
     <MESSAGE value="#40 change absolute links to images" />
     <MESSAGE value="#41 change buttons in contents" />
@@ -490,7 +477,9 @@
     <MESSAGE value="#62 change font family" />
     <MESSAGE value="#63 change sub style" />
     <MESSAGE value="#64 add sub in localstorage" />
-    <option name="LAST_COMMIT_MESSAGE" value="#64 add sub in localstorage" />
+    <MESSAGE value="#65 fix sub button" />
+    <MESSAGE value="#66 fix count button" />
+    <option name="LAST_COMMIT_MESSAGE" value="#66 fix count button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="108" key="#Inspections" timestamp="1598221319520">
@@ -505,10 +494,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1598296261646" />
-    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1598275239803">
+    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1598298377602">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1598275239803" />
+    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1598298377602" />
     <state x="239" y="60" key="DiffContextDialog" timestamp="1598103072182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -569,10 +558,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597429898272" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598275244964">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598298529806">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1598275244964" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1598298529806" />
     <state x="459" y="109" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596222828489">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

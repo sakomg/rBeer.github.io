@@ -237,6 +237,28 @@ pre code {
     cursor: pointer;
 }
 
+.buttons a, .buttons a:visited {
+    text-decoration: none
+}
+
+.buttons a {
+    position: relative
+}
+
+.buttons a .count {
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+    display: none;
+    font-family: "Source Code Pro", monospace;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0 4px;
+    position: absolute;
+    right: 6px;
+    top: -14px
+}
+
 .buttons a .icon {
     border: 1px solid gray;
     border-radius: 50%;
