@@ -32,12 +32,3 @@ sub.addEventListener("click", function () {
         this.innerHTML = localStorage.getItem('textSub');
     }
 });
-
-
-
-
-
-
-
-
-
