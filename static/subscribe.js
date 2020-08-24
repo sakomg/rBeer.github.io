@@ -1,4 +1,3 @@
-var color = 'gray';
 function subscribeOnButton() {
     window._peq.push(['subscriber-status', function (res) {
         if (res.statuscode === 1) {
@@ -12,8 +11,15 @@ function subscribeOnButton() {
     }]);
 }
 
-function change(identifier) {
-    identifier.style.color = color;
+
+localStorage.setItem('color', 'green');
+localStorage.setItem('sub', 'Вы подписаны');
+function change() {
+    // identifier.style.color = localStorage.getItem('color');
+    document.getElementById("subscriber").innerHTML = localStorage.getItem("sub");
+    document.getElementById("subscriber").style.color = localStorage.getItem("color");
 }
+
+
 
 
