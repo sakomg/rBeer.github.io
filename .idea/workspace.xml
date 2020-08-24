@@ -19,15 +19,11 @@
       <change beforePath="$PROJECT_DIR$/posts/14-2020-08-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/14-2020-08-18.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/2-2020-05-09.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2-2020-05-09.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/3-2020-05-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/3-2020-05-22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/4-2020-06-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/4-2020-06-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/6-2020-07-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/6-2020-07-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/5-2020-06-25.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/5-2020-06-25.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/7-2020-07-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/7-2020-07-19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/8-2020-07-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/8-2020-07-22.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/9-2020-07-29.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/9-2020-07-29.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/filter-contents.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/filter-contents.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/filter-contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/filter-contents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/nav-scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/nav-scroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/subscribe.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/subscribe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/layout-256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/layout-256.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -126,14 +122,7 @@
       <workItem from="1597545398526" duration="582000" />
       <workItem from="1597572044634" duration="621000" />
       <workItem from="1597573482237" duration="53192000" />
-      <workItem from="1598195048901" duration="33363000" />
-    </task>
-    <task id="LOCAL-00022" summary="#23 first version about-author">
-      <created>1596399861848</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1596399861848</updated>
+      <workItem from="1598195048901" duration="36342000" />
     </task>
     <task id="LOCAL-00023" summary="#24 add photo team and icon for disqus">
       <created>1596400055706</created>
@@ -471,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598298564167</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="#67 refactor">
+      <created>1598300612303</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1598300612303</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +475,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#39 add 11-14 post" />
     <MESSAGE value="#40 change absolute links to images" />
     <MESSAGE value="#41 change buttons in contents" />
     <MESSAGE value="#42 refactor css" />
@@ -504,7 +499,8 @@
     <MESSAGE value="#64 add sub in localstorage" />
     <MESSAGE value="#65 fix sub button" />
     <MESSAGE value="#66 fix count button" />
-    <option name="LAST_COMMIT_MESSAGE" value="#66 fix count button" />
+    <MESSAGE value="#67 refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="#67 refactor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="108" key="#Inspections" timestamp="1598221319520">
@@ -519,10 +515,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1598296261646" />
-    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1598298562509">
+    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1598300609300">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1598298562509" />
+    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1598300609300" />
     <state x="239" y="60" key="DiffContextDialog" timestamp="1598103072182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -583,10 +579,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597429898272" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598298568881">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598300616067">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1598298568881" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1598300616067" />
     <state x="459" y="109" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596222828489">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
