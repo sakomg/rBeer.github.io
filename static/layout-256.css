@@ -534,8 +534,7 @@ del {
 }
 
 .header .sub {
-    color: darkred;
-    text-decoration: underline;
+    color: black;
 }
 
 .footer {
