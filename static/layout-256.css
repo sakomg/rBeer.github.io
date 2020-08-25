@@ -208,6 +208,7 @@ pre code {
     .youtube {
         float: inherit;
         width: auto;
+        margin: 10px 0 10px 0;
     }
 }
 
@@ -390,7 +391,7 @@ blockquote {
 }
 
 @media all and (max-width: 777px) {
-    .highlighttable .linenos, .quote, .book, .desktop-only, .header, .header .search .google, .header .face .hire, .footer, h2 .link, blockquote p::before {
+    .highlighttable .linenos, .quote, .book, .header-main, .desktop-only, .header, .header .search .google, .header .face .hire, .footer, h2 .link, blockquote p::before {
         display: none
     }
 }
