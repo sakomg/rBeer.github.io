@@ -207,7 +207,7 @@ pre code {
 @media all and (max-width: 777px) {
     .youtube {
         float: inherit;
-        width: 200px;
+        width: auto;
     }
 }
 
