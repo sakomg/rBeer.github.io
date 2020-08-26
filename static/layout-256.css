@@ -152,18 +152,6 @@ pre code {
     color: #e52d27
 }
 
-.icon-angellist:hover {
-    color: #6694ca
-}
-
-.icon-gitter:hover {
-    color: #ff006e
-}
-
-.icon-podcast:hover {
-    color: #f50
-}
-
 .wrapper, .disqus, .disqus .hint {
     box-sizing: border-box;
     clear: both;
@@ -174,7 +162,6 @@ pre code {
     padding-right: 40px;
     width: 777px
 }
-
 
 .disqus {
     margin-top: 40px;
@@ -288,7 +275,7 @@ pre code {
 }
 
 .quote {
-    border-left: 4px solid darkgreen;
+    border-left: 4px solid darkorange;
     float: right;
     font-size: 32px;
     line-height: 32px;
@@ -340,7 +327,7 @@ pre code {
     }
 }
 
-.highlighttable .linenos, .youtube, .gray, .footer, h2 .link, .subline, .pagination .mute, blockquote p::before {
+.highlighttable .linenos, .youtube, .gray, .footer, h2 .link, h1 .links, .subline, .pagination .mute, blockquote p::before {
     color: gray
 }
 
@@ -577,6 +564,18 @@ h1 {
     margin-bottom: 10px
 }
 
+h1 .links {
+    margin-top: -4px;
+    margin-left: 10px;
+    text-decoration: none;
+    position: absolute;
+}
+
+h1 .links:hover {
+    color: white;
+    opacity: 1
+}
+
 h1 a {
     text-decoration: none
 }
@@ -590,6 +589,7 @@ h2 {
 }
 
 h2 .link {
+    margin-top: 2px;
     margin-left: 6px;
     text-decoration: none
 }
