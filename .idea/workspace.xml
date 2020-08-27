@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8da61e2-123e-47f1-b0f7-7f0778f107bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts-others/1-2020-08-05.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts-others/1-2020-08-05.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts-others/2-2020-08-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts-others/2-2020-08-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts-others/3-2020-08-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts-others/3-2020-08-20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/1-2020-05-01.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/1-2020-05-01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/10-2020-08-07.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/10-2020-08-07.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/11-2020-08-09.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/11-2020-08-09.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/12-2020-08-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/12-2020-08-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/13-2020-08-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/13-2020-08-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/14-2020-08-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/14-2020-08-18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/2-2020-05-09.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2-2020-05-09.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/3-2020-05-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/3-2020-05-22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/4-2020-06-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/4-2020-06-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/5-2020-06-25.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/5-2020-06-25.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/6-2020-07-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/6-2020-07-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/7-2020-07-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/7-2020-07-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/8-2020-07-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/8-2020-07-22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/9-2020-07-29.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/9-2020-07-29.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,14 +102,7 @@
       <workItem from="1597545398526" duration="582000" />
       <workItem from="1597572044634" duration="621000" />
       <workItem from="1597573482237" duration="53192000" />
-      <workItem from="1598195048901" duration="56907000" />
-    </task>
-    <task id="LOCAL-00033" summary="#34 git info">
-      <created>1597394180332</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1597394180332</updated>
+      <workItem from="1598195048901" duration="57247000" />
     </task>
     <task id="LOCAL-00034" summary="#35 change text in index">
       <created>1597396385880</created>
@@ -463,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598546579361</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="#74 disqus rename">
+      <created>1598549313841</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1598549313841</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +455,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#47 started grid in other page" />
     <MESSAGE value="#48 fix grid in other page" />
     <MESSAGE value="#49 add posts to others" />
     <MESSAGE value="#50 add new posts to contents" />
@@ -496,7 +479,8 @@
     <MESSAGE value="#72 add scraper" />
     <MESSAGE value="#73 refactor" />
     <MESSAGE value="#74 www" />
-    <option name="LAST_COMMIT_MESSAGE" value="#74 www" />
+    <MESSAGE value="#74 disqus rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="#74 disqus rename" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="108" key="#Inspections" timestamp="1598221319520">
@@ -511,10 +495,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1598296261646" />
-    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1598546577695">
+    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1598549312221">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1598546577695" />
+    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1598549312221" />
     <state x="239" y="60" key="DiffContextDialog" timestamp="1598103072182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -575,10 +559,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597429898272" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598546582389">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1598549320690">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1598546582389" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1598549320690" />
     <state x="459" y="109" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596222828489">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
