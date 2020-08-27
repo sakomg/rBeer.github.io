@@ -1,7 +1,7 @@
-filterSelection("all")
+filterSelection("all");
 
 function filterSelection(c) {
-    var x, i;
+    let x, i;
     x = document.getElementsByClassName("filter-content");
     if (c === "all") c = "";
     for (i = 0; i < x.length; i++) {
@@ -11,7 +11,7 @@ function filterSelection(c) {
 }
 
 function w3AddClass(element, name) {
-    var i, arr1, arr2;
+    let i, arr1, arr2;
     arr1 = element.className.split(" ");
     arr2 = name.split(" ");
     for (i = 0; i < arr2.length; i++) {
@@ -22,7 +22,7 @@ function w3AddClass(element, name) {
 }
 
 function w3RemoveClass(element, name) {
-    var i, arr1, arr2;
+    let i, arr1, arr2;
     arr1 = element.className.split(" ");
     arr2 = name.split(" ");
     for (i = 0; i < arr2.length; i++) {
@@ -33,11 +33,11 @@ function w3RemoveClass(element, name) {
     element.className = arr1.join(" ");
 }
 
-var btnFilterType = document.getElementById("button-filter-type");
-var tags_256 = btnFilterType.getElementsByClassName("tag-256");
-for (var i = 0; i < tags_256.length; i++) {
+let btnFilterType = document.getElementById("button-filter-type");
+let tags_256 = btnFilterType.getElementsByClassName("tag-256");
+for (let i = 0; i < tags_256.length; i++) {
     tags_256[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active");
+        let current = document.getElementsByClassName("active");
         current[0].className = current[0].className.replace(" active", "");
         this.className += " active";
     });

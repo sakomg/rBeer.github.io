@@ -10,19 +10,16 @@
     <link href="static/layout-256.css" rel="stylesheet"/>
     <link href="static/nav-bar.css" rel="stylesheet"/>
     <link href="static/filter-contents.css" rel="stylesheet">
-
     <style>
         .photo {
             border: 3px solid darkred;
             position: static;
         }
-
         .quote span {
             display: block;
             font-size: .8em;
             text-align: right
         }
-
         body {
             background-color: black;
             color: white;
@@ -35,7 +32,6 @@
             position: relative;
             top: 35px
         }
-
         @media all and (max-width: 777px) {
             .wrapper {
                 line-height: 32px;
@@ -46,13 +42,11 @@
                 margin-bottom: 70px;
             }
         }
-
         @media all and (min-width: 777px) {
             .header-mobile {
                 display: none;
             }
         }
-
         @media all and (max-width: 777px) {
             .header-main {
                 display: none;
@@ -88,13 +82,14 @@
     </aside>
     <header class="header" id="header">
         <div class="face">
-            <a href="https://t.me/saskakomegunov">
+            <a href="contents.html">
                 <img alt="Саша Комегунов"
                      class="photo"
                      src="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595748957/photo-256x256-square_dlqjfi.jpg"
                      title="Саша Комегунов"/>
             </a>
         </div>
+        <button id="subscriber" onclick = "subscribeOnButton()" class="subj">Подписаться</button>
         <nav>
             <ul class="menu social notranslate">
                 <li><a href="https://t.me/saskakomegunov" rel="nofollow"
@@ -287,12 +282,14 @@
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
 <script src="static/filter-contents.js"></script>
 <script src="static/nav-scroll.js"></script>
-<script>let disqus_shortname = 'rBeer-by';</script>
+<script src="static/subscribe.js"></script>
 <script>
     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l += new Date;
     ga('create', 'UA-176052574-1', 'auto');
     ga('send', 'pageview');
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
+<script> window._peq = window._peq || []; window._peq.push(["init"]);</script>
+<script src="https://clientcdn.pushengage.com/core/9a071805-b0a3-4422-a63b-b75667c8.js" async></script>
 </body>
 </html>

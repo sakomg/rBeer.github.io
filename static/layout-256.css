@@ -152,18 +152,6 @@ pre code {
     color: #e52d27
 }
 
-.icon-angellist:hover {
-    color: #6694ca
-}
-
-.icon-gitter:hover {
-    color: #ff006e
-}
-
-.icon-podcast:hover {
-    color: #f50
-}
-
 .wrapper, .disqus, .disqus .hint {
     box-sizing: border-box;
     clear: both;
@@ -174,7 +162,6 @@ pre code {
     padding-right: 40px;
     width: 777px
 }
-
 
 .disqus {
     margin-top: 40px;
@@ -198,10 +185,18 @@ pre code {
     float: right;
     font-size: .8em;
     line-height: 1.2em;
-    margin: 10px -100px 10px 20px;
+    margin: 10px 0 10px 15px;
     padding-left: 20px;
     text-align: left;
-    width: 200px
+    width: 250px;
+}
+
+@media all and (max-width: 777px) {
+    .youtube {
+        float: inherit;
+        width: auto;
+        margin: 10px 0 10px 0;
+    }
 }
 
 .youtube .box {
@@ -233,8 +228,8 @@ pre code {
     line-height: 1em
 }
 
-.buttons {
-    margin-bottom: .5em
+.subj {
+    cursor: pointer;
 }
 
 .buttons a, .buttons a:visited {
@@ -280,7 +275,7 @@ pre code {
 }
 
 .quote {
-    border-left: 4px solid darkgreen;
+    border-left: 4px solid darkorange;
     float: right;
     font-size: 32px;
     line-height: 32px;
@@ -332,7 +327,7 @@ pre code {
     }
 }
 
-.highlighttable .linenos, .youtube, .gray, .footer, h2 .link, .subline, .pagination .mute, blockquote p::before {
+.highlighttable .linenos, .youtube, .gray, .footer, h2 .link, h1 .links, .subline, .pagination .mute, blockquote p::before {
     color: gray
 }
 
@@ -369,7 +364,7 @@ pre code {
 }
 
 body, .field {
-    font-family: "Cambria", "Georgia", "Times New Roman", serif;
+    font-family: "Helvetica Now", sans-serif;
     font-style: normal;
     font-weight: normal
 }
@@ -383,13 +378,13 @@ blockquote {
 }
 
 @media all and (max-width: 777px) {
-    .highlighttable .linenos, .youtube, .quote, .book, .desktop-only, .header, .header .search .google, .header .face .hire, .footer, h2 .link, blockquote p::before {
+    .highlighttable .linenos, .quote, .book, .header-main, .desktop-only, .header, .header .search .google, .header .face .hire, .footer, h2 .link, blockquote p::before {
         display: none
     }
 }
 
 @media print {
-    .disqus, .youtube, .buttons, .quote, .book, .jb_picture, twitter-widget, .unprintable, .header, .header .hot, .pagination {
+    .disqus, .quote, .book, .jb_picture, twitter-widget, .unprintable, .header, .header .hot, .pagination {
         display: none !important;
         visibility: hidden
     }
@@ -405,13 +400,6 @@ blockquote {
 * {
     max-width: 100%
 }
-
-a, a:visited {
-    color: steelblue;
-    text-decoration: underline;
-    text-decoration-thickness: 1px
-}
-
 
 body a, body a:visited {
     color: inherit
@@ -533,11 +521,6 @@ del {
     top: 0
 }
 
-.header .sub {
-    color: darkred;
-    text-decoration: underline;
-}
-
 .footer {
     margin-top: 100px;
     text-align: center
@@ -574,6 +557,18 @@ h1 {
     margin-bottom: 10px
 }
 
+h1 .links {
+    margin-top: -4px;
+    margin-left: 10px;
+    text-decoration: none;
+    position: absolute;
+}
+
+h1 .links:hover {
+    color: white;
+    opacity: 1
+}
+
 h1 a {
     text-decoration: none
 }
@@ -587,6 +582,7 @@ h2 {
 }
 
 h2 .link {
+    margin-top: 2px;
     margin-left: 6px;
     text-decoration: none
 }
