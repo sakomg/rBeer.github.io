@@ -230,6 +230,7 @@ pre code {
 
 .subj {
     cursor: pointer;
+    margin-top: 27px;
 }
 
 .buttons a, .buttons a:visited {
@@ -507,9 +508,8 @@ del {
 }
 
 .header .face .photo {
-    border-radius: 50%;
-    height: 80px;
-    width: 80px
+    height: 150px;
+    width: 777px
 }
 
 .header .face .hire {

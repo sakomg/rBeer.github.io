@@ -9,17 +9,20 @@
     <link href="static/icons-256.css" rel="stylesheet"/>
     <link href="static/layout-256.css" rel="stylesheet"/>
     <link href="static/nav-bar.css" rel="stylesheet"/>
+    <link href="static/slider.css" rel="stylesheet"/>
     <link href="static/filter-contents.css" rel="stylesheet">
     <style>
         .photo {
             border: 3px solid darkred;
             position: static;
         }
+
         .quote span {
             display: block;
             font-size: .8em;
             text-align: right
         }
+
         body {
             background-color: black;
             color: white;
@@ -32,6 +35,7 @@
             position: relative;
             top: 35px
         }
+
         @media all and (max-width: 777px) {
             .wrapper {
                 line-height: 32px;
@@ -42,11 +46,13 @@
                 margin-bottom: 70px;
             }
         }
+
         @media all and (min-width: 777px) {
             .header-mobile {
                 display: none;
             }
         }
+
         @media all and (max-width: 777px) {
             .header-main {
                 display: none;
@@ -62,7 +68,8 @@
     <nav>
         <ul class="menu">
             <li><a class="active-tab" href="index.html" title="Главная страница">Главная</a></li>
-            <li class="selected"><a class="active-tab" href="contents.html" title="Содержание веб-страницы">Содержание</a></li>
+            <li class="selected"><a class="active-tab" href="contents.html"
+                                    title="Содержание веб-страницы">Содержание</a></li>
             <li><a class="active-tab" href="others.html" title="Обо всем">Разное</a></li>
             <li><a class="active-tab" href="about-author.html" style="color:darkred"
                    title="О создателе отзывов">
@@ -81,15 +88,14 @@
            title="Показать меню">&#9776;
     </aside>
     <header class="header" id="header">
-        <div class="face">
-            <a href="contents.html">
-                <img alt="Саша Комегунов"
-                     class="photo"
-                     src="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595748957/photo-256x256-square_dlqjfi.jpg"
-                     title="Саша Комегунов"/>
-            </a>
-        </div>
-        <button id="subscriber" onclick = "subscribeOnButton()" class="subj">Подписаться</button>
+        <a href="contents.html">
+            <ul class="body_slides">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </a>
+        <button id="subscriber" onclick="subscribeOnButton()" class="subj">Подписаться</button>
         <nav>
             <ul class="menu social notranslate">
                 <li><a href="https://t.me/saskakomegunov" rel="nofollow"
@@ -124,9 +130,9 @@
                 <li><a href="others.html" title="Обо всем">Разное</a></li>
                 <li><a href="about-author.html" style="color:darkred"
                        title="О создателе отзывов">Об авторе</a><img alt="Deuis"
-                                                               class="dino-icon"
-                                                               src="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595944948/dino-deus_wbeklw.png"
-                                                               style="display:inline-block;border-radius:50%;height:1em;width:1em;line-height:1em;margin-bottom:-7px;margin-left:2px">
+                                                                     class="dino-icon"
+                                                                     src="https://res.cloudinary.com/ddxoslwlu/image/upload/v1595944948/dino-deus_wbeklw.png"
+                                                                     style="display:inline-block;border-radius:50%;height:1em;width:1em;line-height:1em;margin-bottom:-7px;margin-left:2px">
                 </li>
             </ul>
         </nav>
@@ -150,14 +156,22 @@
         <header itemprop="name"><h1>Содержание</h1></header>
         <p>Все категории, которые присутствуют на сайте:</p>
         <div id="button-filter-type">
-            <a class="tag-256 active" onclick="filterSelection('all')"><img src="https://image.flaticon.com/icons/svg/918/918697.svg" alt="все">Показать все</a>
-            <a class="tag-256" onclick="filterSelection('Светлое')"><img src="https://image.flaticon.com/icons/svg/2331/2331713.svg" alt="светлое">Светлое</a>
-            <a class="tag-256" onclick="filterSelection('Тёмное')"><img src="https://www.flaticon.com/premium-icon/icons/svg/2622/2622593.svg" alt="темное">Тёмное</a>
-            <a class="tag-256" onclick="filterSelection('Энергетики')"><img src="https://image.flaticon.com/icons/svg/2619/2619512.svg" alt="энергетик">Энергетики</a>
-            <a class="tag-256" onclick="filterSelection('Лучшее')"><img src="https://image.flaticon.com/icons/svg/744/744480.svg" alt="лучшее">Лучшее</a>
-            <a class="tag-256" onclick="filterSelection('Крафтовое')"><img src="https://image.flaticon.com/icons/svg/931/931949.svg" alt="крафтовое">Крафтовое</a>
-            <a class="tag-256" onclick="filterSelection('Бутылочное')"><img src="https://image.flaticon.com/icons/svg/2331/2331745.svg" alt="бутылочное">Бутылочное</a>
-            <a class="tag-256" onclick="filterSelection('Нефильтрованное')"><img src="https://www.flaticon.com/premium-icon/icons/svg/2276/2276668.svg" alt="нефильтрованное">Нефильтрованное</a>
+            <a class="tag-256 active" onclick="filterSelection('all')"><img
+                    src="https://image.flaticon.com/icons/svg/918/918697.svg" alt="все">Показать все</a>
+            <a class="tag-256" onclick="filterSelection('Светлое')"><img
+                    src="https://image.flaticon.com/icons/svg/2331/2331713.svg" alt="светлое">Светлое</a>
+            <a class="tag-256" onclick="filterSelection('Тёмное')"><img
+                    src="https://www.flaticon.com/premium-icon/icons/svg/2622/2622593.svg" alt="темное">Тёмное</a>
+            <a class="tag-256" onclick="filterSelection('Энергетики')"><img
+                    src="https://image.flaticon.com/icons/svg/2619/2619512.svg" alt="энергетик">Энергетики</a>
+            <a class="tag-256" onclick="filterSelection('Лучшее')"><img
+                    src="https://image.flaticon.com/icons/svg/744/744480.svg" alt="лучшее">Лучшее</a>
+            <a class="tag-256" onclick="filterSelection('Крафтовое')"><img
+                    src="https://image.flaticon.com/icons/svg/931/931949.svg" alt="крафтовое">Крафтовое</a>
+            <a class="tag-256" onclick="filterSelection('Бутылочное')"><img
+                    src="https://image.flaticon.com/icons/svg/2331/2331745.svg" alt="бутылочное">Бутылочное</a>
+            <a class="tag-256" onclick="filterSelection('Нефильтрованное')"><img
+                    src="https://www.flaticon.com/premium-icon/icons/svg/2276/2276668.svg" alt="нефильтрованное">Нефильтрованное</a>
         </div>
         <main class="content" id="contents">
 
@@ -284,12 +298,16 @@
 <script src="static/nav-scroll.js"></script>
 <script src="static/subscribe.js"></script>
 <script>
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l += new Date;
+    window.ga = window.ga || function () {
+        (ga.q = ga.q || []).push(arguments)
+    };
+    ga.l += new Date;
     ga('create', 'UA-176052574-1', 'auto');
     ga('send', 'pageview');
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
-<script> window._peq = window._peq || []; window._peq.push(["init"]);</script>
+<script> window._peq = window._peq || [];
+window._peq.push(["init"]);</script>
 <script src="https://clientcdn.pushengage.com/core/9a071805-b0a3-4422-a63b-b75667c8.js" async></script>
 </body>
 </html>
