@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8da61e2-123e-47f1-b0f7-7f0778f107bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-author.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-author.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/others.html" beforeDir="false" afterPath="$PROJECT_DIR$/others.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/layout-256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/layout-256.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/slider.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,14 +103,7 @@
       <workItem from="1599168824722" duration="43000" />
       <workItem from="1599669426587" duration="4676000" />
       <workItem from="1599765905355" duration="11000" />
-      <workItem from="1599984837976" duration="653000" />
-    </task>
-    <task id="LOCAL-00017" summary="#18 change indent text in mobile">
-      <created>1596363157279</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1596363157279</updated>
+      <workItem from="1599984837976" duration="977000" />
     </task>
     <task id="LOCAL-00018" summary="#19 change img dino in mobile">
       <created>1596364128721</created>
@@ -455,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599680874706</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="#78 fix link and change img header">
+      <created>1599985535719</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1599985535719</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +456,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#36 minimal refactor code" />
     <MESSAGE value="#37 add elementary filter contents" />
     <MESSAGE value="#38 add 10 post and preparation 11-14" />
     <MESSAGE value="#39 add 11-14 post" />
@@ -488,7 +480,8 @@
     <MESSAGE value="#61 send response result registr" />
     <MESSAGE value="#76 CNAME change" />
     <MESSAGE value="#77 add slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="#77 add slider" />
+    <MESSAGE value="#78 fix link and change img header" />
+    <option name="LAST_COMMIT_MESSAGE" value="#78 fix link and change img header" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="108" key="#Inspections" timestamp="1597863569151">
@@ -499,10 +492,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="549" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1596637357405" />
-    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1599680871263">
+    <state x="512" y="0" key="CommitChangelistDialog2" timestamp="1599985531658">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599680871263" />
+    <state x="512" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599985531658" />
     <state x="239" y="60" key="DiffContextDialog" timestamp="1598103072182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -563,10 +556,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597429898272" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1599680899748">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1599985541603">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1599680899748" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1599985541603" />
     <state x="459" y="109" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596222828489">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
