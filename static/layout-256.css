@@ -12,89 +12,6 @@
     url("https://res.cloudinary.com/ddxoslwlu/raw/upload/v1597959573/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_3_abrwus") format("truetype")
 }
 
-code, pre {
-    font-family: "Source Code Pro", monospace;
-    font-weight: 400
-}
-
-@media all and (max-width: 777px) {
-    code, pre {
-        font-family: 'Ubuntu Mono', serif;
-        letter-spacing: -1px
-    }
-}
-
-code {
-    background-color: lightgray;
-    border-radius: 3px;
-    font-size: 90%;
-    line-height: 20px;
-    padding: 0 3px
-}
-
-.highlight {
-    border-left: 3px solid lightgray;
-    margin-left: 40px;
-    padding-left: 10px !important
-}
-
-@media all and (max-width: 777px) {
-    .highlight {
-        border-left: 0;
-        margin-left: 0;
-        overflow-x: auto;
-        padding-left: 0 !important
-    }
-}
-
-.highlight .kn, .highlight .kd, .highlight .kt {
-    font-weight: bold
-}
-
-.highlight .c1 {
-    color: dimgray
-}
-
-.highlighttable {
-    border-spacing: 0;
-    table-layout: fixed;
-    width: 100%
-}
-
-.highlighttable .linenos {
-    min-width: 40px;
-    padding-right: 2px;
-    text-align: right;
-    width: 40px
-}
-
-.highlighttable .highlight {
-    margin-left: 0
-}
-
-@media all and (max-width: 777px) {
-    .highlighttable {
-        overflow-x: auto
-    }
-}
-
-pre {
-    display: block;
-    font-size: 18px;
-    line-height: 24px
-}
-
-pre code {
-    background-color: inherit;
-    padding: 0
-}
-
-@media all and (max-width: 777px) {
-    pre {
-        line-height: 24px
-    }
-}
-
 .icon::before {
     font-size: 20px;
     line-height: 24px
@@ -289,25 +206,6 @@ pre code {
     content: 'ˮ'
 }
 
-.book {
-    float: right;
-    font-family: "Source Code Pro", monospace;
-    margin: 10px -120px 10px 20px;
-    padding-left: 15px;
-    width: 300px
-}
-
-.book .book-cover {
-    float: left;
-    height: 160px;
-    margin-right: 12px;
-    width: 108px
-}
-
-.book .amazon-button {
-    height: 20px
-}
-
 .wrapper, .disqus, .disqus .hint {
     box-sizing: border-box;
     clear: both;
@@ -328,11 +226,11 @@ pre code {
     }
 }
 
-.highlighttable .linenos, .youtube, .gray, .footer, h2 .link, h1 .links, .subline, .pagination .mute, blockquote p::before {
+.youtube, .gray, .footer, h2 .link, h1 .links, .subline, .pagination .mute, blockquote p::before {
     color: gray
 }
 
-.highlighttable .linenos a, .youtube a, .gray a, .footer a, h2 .link a, .subline a, .pagination .mute a, blockquote p::before a, .highlighttable .linenos a:visited, .youtube a:visited, .gray a:visited, .footer a:visited, h2 .link a:visited, .subline a:visited, .pagination .mute a:visited, blockquote p::before a:visited {
+.youtube a, .gray a, .footer a, h2 .link a, .subline a, .pagination .mute a, blockquote p::before a, .highlighttable .linenos a:visited, .youtube a:visited, .gray a:visited, .footer a:visited, h2 .link a:visited, .subline a:visited, .pagination .mute a:visited, blockquote p::before a:visited {
     color: inherit
 }
 
@@ -379,7 +277,7 @@ blockquote {
 }
 
 @media all and (max-width: 777px) {
-    .highlighttable .linenos, .quote, .book, .header-main, .desktop-only, .header, .header .search .google, .header .face .hire, .footer, h2 .link, blockquote p::before {
+    .quote, .header-main, .desktop-only, .header, .header .search .google, .header .face .hire, .footer, h2 .link, blockquote p::before {
         display: none
     }
 }
@@ -473,13 +371,6 @@ del {
 
 .header .menu li.selected a {
     color: darkgreen;
-    text-decoration: none
-}
-
-.header .menu li.highlighted a {
-    background-color: firebrick;
-    color: white;
-    padding: 0 .3em;
     text-decoration: none
 }
 
